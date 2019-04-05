@@ -1,0 +1,1 @@
+This project uses basic react to create an app for making a to-do llist
