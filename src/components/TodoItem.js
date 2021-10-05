@@ -5,14 +5,14 @@ import PropTypes from 'prop-types';
 
 export class TodoItem extends Component {
   getStyle= ()=>{
- 
+
         return {
             background: '#f4f4f4',
             padding: '10px',
             borderBottom:'1px #ccc dotted',
             textDecoration: this.props.todo.completed? 'Line-through':'none'
         }
-    
+
   }
 
   render() {
